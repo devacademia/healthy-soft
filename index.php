@@ -15,4 +15,4 @@ if (version_compare(PHP_VERSION, '8.1.0', '<=')) {
 
 require_once __DIR__ . DIRECTORY_SEPARATOR . 'autoload.php';
 
-require_once APP_DIR . DS . 'View' . DS . 'Employees' . DS . 'dashboard.php';
+require_once APP_DIR . DS . 'View' . DS . 'Home' . DS . 'index.php';

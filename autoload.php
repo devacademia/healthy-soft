@@ -19,7 +19,7 @@ require_once __DIR__ . DIRECTORY_SEPARATOR . 'config' . DIRECTORY_SEPARATOR . 'p
  */
 class AutoLoader
 {
-    public function __autoload($className)
+    public function __autoload(string $className)
     {
         if (strpos($className, '\\') !== false) {
             $fqnParts = explode('\\', $className);
@@ -52,7 +52,7 @@ class AutoLoader
         }
     }
 
-    public function __autoloadClass($className)
+    public function __autoloadClass(string $className)
     {
         $filePath = $className . '.php';
 
@@ -68,7 +68,7 @@ class AutoLoader
         }
     }
 
-    public function __autoLoadCoreClass($className)
+    public function __autoLoadCoreClass(string $className)
     {
         $fqnParts = explode('\\', $className);
 
@@ -83,7 +83,7 @@ class AutoLoader
         }
     }
 
-    public function __autoLoadModel($className)
+    public function __autoLoadModel(string $className)
     {
         $fqnParts = explode('\\', $className);
 
@@ -99,7 +99,7 @@ class AutoLoader
         }
     }
 
-    public function __autoLoadController($className)
+    public function __autoLoadController(string $className)
     {
         $fqnParts = explode('\\', $className);
 
@@ -115,7 +115,7 @@ class AutoLoader
         }
     }
 
-    public function __autoLoadService($className)
+    public function __autoLoadService(string $className)
     {
         $fqnParts = explode('\\', $className);
 
@@ -131,7 +131,7 @@ class AutoLoader
         }
     }
 
-    public function __autoLoadView($className)
+    public function __autoLoadView(string $className)
     {
         $fqnParts = explode('\\', $className);
 
