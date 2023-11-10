@@ -104,11 +104,11 @@ require_once dirname(dirname(dirname(__DIR__))) . DIRECTORY_SEPARATOR . 'autoloa
           <span id="changeIcon" class="fa fa-bars text-light"></span>
         </a>
 
-        <div class="d-flex">
-          <a class="nav-link text-light px-2" href="#"><i class="fas fa-search"></i></a>
-          <a class="nav-link text-light px-2" href="#"><i class="fas fa-bell"></i></a>
-          <a class="nav-link text-light px-2" href="#"><i class="fas fa-sign-out-alt"></i></a>
+        <div class="d-flex me-md-4">
+          <a class="nav-link text-light px-3" href="#"><i class="fas fa-search"></i></a>
+          <a class="nav-link text-light px-3" href="#"><i class="fas fa-bell"></i></a>
+          <a class="nav-link text-light px-3" href="#"><i class="fas fa-sign-out-alt"></i></a>
         </div>
       </nav>
 
-      <div class="container-fluid">
+      <div class="container mt-3">

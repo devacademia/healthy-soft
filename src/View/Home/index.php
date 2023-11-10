@@ -16,10 +16,10 @@ require_once dirname(__DIR__) . DS . 'Elements' . DS . 'header.php';
 
 ?>
 
-<main class="container">
-  <div class="row mt-5 p-4 d-flex align-items-center justify-content-center">
+<main class="container main-content">
+  <div class="row mt-3 p-4 home-content justify-content-center align-items-center">
     <div class="col-md-6">
-      <div class="card">
+      <div class="card shadow">
         <div class="card-header">
           Features
         </div>
@@ -32,7 +32,7 @@ require_once dirname(__DIR__) . DS . 'Elements' . DS . 'header.php';
     </div>
 
     <div class="col-md-6">
-      <div class="card">
+      <div class="card shadow">
         <div class="card-header">
           Bugs
         </div>
